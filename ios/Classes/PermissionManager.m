@@ -76,8 +76,6 @@
 + (id)createPermissionStrategy:(PermissionGroup)permission {
     switch (permission) {
 
-            case PermissionGroupMediaLibrary:
-            return [MediaLibraryPermissionStrategy new];
             case PermissionGroupPhotos:
             return [PhotoPermissionStrategy new];
 
