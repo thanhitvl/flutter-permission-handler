@@ -12,6 +12,7 @@
 #import "MediaLibraryPermissionStrategy.h"
 #import "PermissionStrategy.h"
 #import "PhotoPermissionStrategy.h"
+#import "UnknownPermissionStrategy.h"
 #import "Enums.h"
 #import "Codec.h"
 
