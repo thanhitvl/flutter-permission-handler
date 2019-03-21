@@ -78,12 +78,8 @@
 
             case PermissionGroupMediaLibrary:
             return [MediaLibraryPermissionStrategy new];
-
             case PermissionGroupPhotos:
             return [PhotoPermissionStrategy new];
-
-        default:
-            return [UnknownPermissionStrategy new];
     }
 }
 
